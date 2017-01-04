@@ -1,7 +1,7 @@
 {
   "name": "noflo-browserfile",
   "description": "Components to File API.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Vilson Vieira",
     "email": "vilson@void.cc",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/automata/noflo-browserfile.git"
+    "url": "git://github.com/noflo/noflo-browserfile.git"
   },
   "license": "MIT",
   "scripts": {
