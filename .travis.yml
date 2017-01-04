@@ -1,5 +1,13 @@
 language: node_js
 node_js:
-  - '4.6'
+- '4.6'
 before_script:
-  - npm install -g grunt-cli
+- npm install -g grunt-cli
+deploy:
+  provider: npm
+  email: henri.bergius@iki.fi
+  api_key:
+    secure: slB2SLwU3fxD37a98watIXjetf5h0vLYz97pDyst98KP9E/RAy87a3i0Sf0W6xbc9zEKP4JLxSWTt+2b0ENCw+xtD51vGDvQlEVJwQQC+B81K9YiWXAAQlOu4IQrPUmCI+slvNXMyd6CgVH3KB2QljIuYC3roK1FpoL472lqePM=
+  on:
+    tags: true
+    repo: noflo/noflo-browserfile
