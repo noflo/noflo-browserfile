@@ -29,7 +29,6 @@
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-mocha-phantomjs": "^4.0.0",
-    "grunt-mocha-test": "^0.13.2",
     "grunt-noflo-browser": "^1.0.1",
     "grunt-noflo-manifest": "^0.1.12",
     "json-loader": "^0.5.4",
@@ -37,10 +36,5 @@
   },
   "keywords": [
     "noflo"
-  ],
-  "noflo": {
-    "components": {
-      "ReadFile": "components/ReadFile.coffee"
-    }
-  }
+  ]
 }
